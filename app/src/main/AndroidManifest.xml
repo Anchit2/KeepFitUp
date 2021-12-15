@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keepfitup">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KeepFitUp">
+        <activity
+            android:name=".NaviBar"
+            android:label="@string/title_activity_navi_bar"
+            android:theme="@style/Theme.KeepFitUp.NoActionBar"></activity>
+        <activity android:name=".HealthySkin" />
+        <activity android:name=".Nutrihellife" />
+        <activity android:name=".NutriMus" />
+        <activity android:name=".NutrionPage" />
+        <activity android:name=".BMIresult" />
+        <activity android:name=".BMIpage" />
+        <activity android:name=".Medex5" />
+        <activity android:name=".Medex4" />
+        <activity android:name=".Medex3" />
+        <activity android:name=".Medex2" />
+        <activity android:name=".Medex1" />
+        <activity android:name=".Yogaex5" />
+        <activity android:name=".Yogaex4" />
+        <activity android:name=".Yogaex3" />
+        <activity android:name=".Yogaex2" />
+        <activity android:name=".Yogaex1" />
+        <activity android:name=".Workex5" />
+        <activity android:name=".Workex4" />
+        <activity android:name=".Workex3" />
+        <activity android:name=".Workex2" />
+        <activity android:name=".Workex1" />
+        <activity android:name=".Fitex5" />
+        <activity android:name=".Fitex4" />
+        <activity android:name=".Fitex3" />
+        <activity android:name=".Fitex2" />
+        <activity android:name=".Fitex1" />
+        <activity android:name=".Meditation_Page" />
+        <activity android:name=".Yoga_Page" />
+        <activity android:name=".Timer_Page" />
+        <activity android:name=".ExercisePage" />
+        <activity android:name=".Workoutpage" />
+        <activity android:name=".FitnessPage" />
+        <activity android:name=".RegistrationPage" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

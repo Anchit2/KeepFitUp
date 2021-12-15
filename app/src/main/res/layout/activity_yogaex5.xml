@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Yogaex1">
+
+    <TextView
+        android:id="@+id/before1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Swastikasana\n(Auspicious Pose)"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="413dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="86dp"
+        android:padding="12dp"
+        android:text="In order to achieve holistic fulfillment, start with the left knee and place the left sole against the inside of the right thigh. Then bend the right leg and, squeezing the left foot into space at the crook of the right leg, tuck the right foot into the space between the left thigh and calf muscle. Tucking the feet in is important to making the posture comfortable particularly the bottom one, which can be compressed if not positioned properly."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/before1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

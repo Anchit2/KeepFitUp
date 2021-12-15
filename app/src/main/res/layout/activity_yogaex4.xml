@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Yogaex1">
+
+    <TextView
+        android:id="@+id/before1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/abeezee"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=" Vajrasana\n(Sitting on the heels)"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="413dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="86dp"
+        android:padding="12dp"
+        android:text="It stimulates proper digestion therefore it is recommended to sit in vajrasana for about 5-10 minutes after a meal.
+Initiate steps towards proper digestion by coming up onto the knees (knee stand). The legs are together. The big toes touch each other, the heels point slightly outwards. Tilt the upper body forward and then sit back between the heels. The trunk is upright. Place the hands on the thighs."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/before1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "884198120209",
+    "project_id": "keepfitup-3989d",
+    "storage_bucket": "keepfitup-3989d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884198120209:android:8c7e84eeebdf0caa67cab0",
+        "android_client_info": {
+          "package_name": "com.example.keepfitup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884198120209-fq0o3vcpdaagild2o66q9f3gaqjjcgk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALZY_WzD4wUmUMy1XPIaw6bNgZsvHIHQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884198120209-fq0o3vcpdaagild2o66q9f3gaqjjcgk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

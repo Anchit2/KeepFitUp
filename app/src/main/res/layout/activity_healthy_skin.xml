@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skin"
+    tools:context=".HealthySkin">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Eat a minimum of five portions of fruit and vegetables every day\n
+
+A selection of colourful fruit and vegetables
+Fruit and vegetables contain powerful antioxidants that help to protect skin from the cellular damage caused by free radicals. Free radicals, smoking, pollution and sunlight can cause wrinkling and age spots. Eat a rainbow of colourful fruit and vegetables and aim for at least five portions a day. Betacarotene, found in carrots, sweet potatoes and pumpkin, and lutein, found in kale, papaya and spinach are potent antioxidants, important for normal skin cell development and healthy skin tone.
+
+Discover what counts as one of your 5-a-day.\n\n
+
+2. Eat enough vitamin C\n
+
+Slices of fresh orange on a blue background
+Vitamin C is also a super antioxidant. It is needed to support the immune system, promote radiant skin and help blemishes heal properly. The best sources are blackcurrants, blueberries, broccoli, guava, kiwi fruits, oranges, papaya, strawberries and sweet potatoes. Vitamin C is needed to produce collagen that strengthens the capillaries that supply the skin.
+
+Read more about vital vitamins and the health benefits of oranges.\n\n
+
+3. Don't crash diet\n
+
+A woman looking in the fridge trying to decide what to eat
+Repeatedly losing and regaining weight can take its toll on your skin, causing sagging, wrinkles and stretch marks. Crash diets are often short in essential vitamins and minerals too. Over long periods of time this type of dieting will reflect on your skin. It is always best to eat a healthy, balanced diet. If you're considering trying a weight loss plan, make sure you have all the facts first – explore our expert guides to popular diets and read the six things you should consider before starting a diet.
+
+Sign up for our free Healthy Diet Plans, all of which are nutritionally balanced and designed to kickstart a healthier way of eating.
+\n\n
+4. Stock up on selenium\n
+
+Brazil nuts in a bowl
+Selenium is a powerful antioxidant. It works alongside other antioxidants such as vitamins E and C and is essential to support the immune system. Studies suggest that a selenium-rich diet can help to protect against skin cancer, sun damage and age spots. One way to boost your intake is to eat Brazil nuts. Just four nuts will provide the recommended daily amount (RDA). Mix Brazil nuts with other seeds rich in vitamin E as a snack or salad sprinkle. Other good sources are fish, shellfish, eggs, wheatgerm, tomatoes and broccoli.
+
+Read more about the health benefits of Brazil nuts.
+\n\n
+5. Eat enough vitamin E\n
+
+A bowl of almonds on a table
+Vitamin E protects skin from oxidative (cell) damage and supports healthy skin growth. Foods high in vitamin E include almonds, avocado, hazelnuts, pine nuts and sunflower and corn oils.
+
+Read more about the health benefits of almonds and what makes avocado so healthy.
+\n\n
+6. Drink six to eight glasses of water a day\n
+
+A glass of water with a slice of lemon and ice
+Skin needs moisture to stay flexible. Even mild dehydration will cause your skin to look dry, tired and slightly grey. Drink six to eight glasses of water a day – all fluids count towards your daily allowance, but water is the best. If you work in an office, keep a large bottle of water on your desk to remind you to drink. Herbal, caffeine-free teas are good too. Don't forget that some fruit and vegetables, such as watermelon, courgette and cucumber, also contribute fluids – the added benefit is that the minerals they contain will increase the rate you hydrate your body and skin. Try to avoid smoking and excessive alcohol consumption as both can age the skin.
+
+Discover how to stay hydrated.
+\n\n
+7. Eat some healthy fat\n
+
+An avocado cut in half on a table
+Monounsaturated and polyunsaturated fats – the types found in avocados, oily fish, nuts and seeds – provide essential fatty acids which act as a natural moisturiser for your skin, keeping it supple and improving elasticity. These fats also come packaged with a healthy dose of vitamin E (a vitamin many of us lack), which will help protect against free radical damage.
+
+Discover the health benefits of salmon.
+\n\n
+8. Opt for omega-3\n
+
+A fillet of salmon on a chopping board with lemon, fresh rosemary and garlic
+Make sure you get enough omega-3 and omega-6 fats. These are essential fatty acids which mean they cannot be made in the body and must be obtained through the diet. You will find omega-3s in oily fish and plant sources such as linseed and their oil, chia seeds, walnuts and rapeseed oil. Omega-3 fats encourage the body to produce anti-inflammatory compounds, which may help inflammatory skin conditions such as eczema and psoriasis.
+
+Discover more about the health benefits of cod liver oil.
+\n\n
+9. Eat more phyto-estrogens\n
+
+A bowl of cubed firm tofu
+Phyto-estrogens are natural chemicals found in plant foods (phyto from the Greek word for plant). They have a similar structure to the female sex hormone oestrogen and have been found to help keep our natural hormones in balance. There are different types, some are found in soya bean products (isoflavones) such as tofu, whereas others are found in the fibre of wholegrains, fruit, vegetables and linseed (lignans). Include phyto-estrogen rich soya, wholegrains, fruits and vegetables as part of a balanced diet.
+
+Find out more about the health benefits of soya.
+\n\n
+10. Go for low-GI carbs\n
+
+Two bowls of healthy porridge topped with blueberry compote
+The glycaemic index (GI) is a system that ranks carbohydrate-based foods on how slowly or quickly they are broken down in the body into glucose. Try to eat plenty of beans, pulses, porridge and other low-GI, slow-releasing carbohydrates. These release sugar into the blood stream gradually, providing you with a steady supply of energy and leaving you feeling satisfied for longer and therefore less likely to snack. Avoid high-GI carbohydrates like biscuits and sugary drinks, as they lead to production of insulin, which may damage collagen and accelerate wrinkles.
+
+Learn more about what the glycaemic index is and discover our favourite low-GI recipes.
+\n\n
+11. Eat plenty of zinc\n
+A bowl of pumpkin seeds
+Zinc is involved in the normal functioning of the sebaceous glands in the skin (which produce oil) and helps to repair skin damage and keep skin soft and supple. Zinc-rich foods include fish, lean red meat, wholegrains, poultry, nuts, seeds and shellfish.
+
+Read more about why we need vital minerals.
+\n\n
+Eat to beat common skin problems\n
+Once you make changes to your diet, don't expect an overnight miracle. It takes six weeks for new skin to emerge up to the surface, so the visible benefits from dietary changes will take just as long. For persistent skin conditions, talk to your GP or consider seeing a dermatologist.
+\n\n
+How can diet affect acne?\n
+Acne is caused by inflammation and infection of the sebaceous glands of the skin. Sebaceous glands are stimulated by hormones (particularly androgens). To avoid acne, cut back on saturated and hydrogenated fats in margarines and processed foods. Also cut down on junk food as well as foods high in sugar, such as cakes and biscuits. Eat more raw vegetables, wholegrains, fresh fruit and fish. Try to include selenium-rich foods, such as Brazil nuts, cashew nuts, fresh tuna, sunflower seeds, walnuts and wholemeal bread.
+\n\n
+How can diet affect psoriasis?\n
+Psoriasis appears as red skin patches with silvery scales, most commonly on the elbows and knees. The patches are caused by rapid growth and proliferation of cells in the outer skin layers. Patches can be itchy and sore and in severe cases, the skin may crack and bleed. Some people find outbreaks occur when they feel rundown. Sunburn, alcohol, smoking, obesity and stress are also implicated and there may be trigger foods which you will have to identify using an exclusion diet, though always check with your GP before cutting out food groups. Essential fatty acids (EFAs) from fish oil or cold-pressed nut and seed oils are important to include in the diet. The diet should ideally be low in saturated fat and include anti-inflammatory herbs such as turmeric, red pepper, ginger, cumin, fennel, rosemary and garlic.
+\n\n
+How can diet affect eczema?\n
+Eczema is a skin condition that usually begins as patchy redness, often on the hands but can appear anywhere on the skin. Although there are many triggers, one of the most common is food sensitivity. The most common offending foods are milk, eggs, fish, cheese, nuts and food additives. Omega-3 fats, zinc and vitamin E may help reduce symptoms.
+
+"
+                android:textColor="#FFFFFF"
+                android:padding="18dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

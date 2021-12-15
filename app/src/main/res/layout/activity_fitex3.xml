@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Timer_Page">
+
+    <!--        android:drawableTop="@drawable/ic_timer"-->
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:textColor="#FFFFFF"
+    android:textSize="34sp"
+    android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="56dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/timere" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="134dp"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/timestartbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timeresetbtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/box"
+        android:text="START"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/timeresetbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="286dp"
+        android:background="@drawable/box"
+        android:text="RESTART"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="257dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="7dp"
+        android:text="Step 1:- This movement is performed with a bench and a foot stool.\n\nStep 2:- Place a bench behind yourself and rest on it with your hands. Place your legs straight out in front of you. You may also place them at an elevated level as shown above.\n\nStep 3:- Begin with arms in a fully. Slowly bend at your elbows keeping the rest of your body straight. Be sure to keep your elbows back and close together.\n\nStep 4:- Dip down until your arms form a 90 degree angle and you feel a stretch in the triceps.\n\nStep 5:- Slowly extend your arms raising your body back up. Pause and contract your triceps muscles at the top. Pause and repeat the movement."
+        android:textColor="#EFE9E9"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
